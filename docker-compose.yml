@@ -1,0 +1,8 @@
+elasticsearch:
+  image: elasticsearch:latest
+  ports:
+    - 127.0.0.1:9200:9200
+    - 127.0.0.1:9300:9300
+  volumes:
+    - config:/usr/share/elasticsearch/config
+    - data:/usr/share/elasticsearch/data
