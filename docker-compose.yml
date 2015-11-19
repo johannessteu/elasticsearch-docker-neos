@@ -19,4 +19,4 @@ elasticsearch:
 beanstalk:
   image: schickling/beanstalkd
   ports:
-    - 11300:11300
+    - 127.0.0.1:11300:11300
